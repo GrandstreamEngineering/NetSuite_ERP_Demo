@@ -1,0 +1,42 @@
+<!--
+ Copyright 2025 Grandstream
+ 
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ 
+     https://www.apache.org/licenses/LICENSE-2.0
+ 
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="@dimen/icon_size_low"
+    android:height="@dimen/icon_size_low"
+    android:viewportWidth="36"
+    android:viewportHeight="36">
+    <path
+        android:fillAlpha="0"
+        android:fillColor="#E8E8EC"
+        android:fillType="evenOdd"
+        android:pathData="M0,0h36v36h-36z"
+        android:strokeWidth="1"
+        android:strokeAlpha="0"
+        android:strokeColor="#00000000" />
+    <path
+        android:fillColor="#AAAAB0"
+        android:fillType="evenOdd"
+        android:pathData="M18,18m-15,0a15,15 0,1 1,30 0a15,15 0,1 1,-30 0"
+        android:strokeWidth="1"
+        android:strokeColor="#00000000" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillType="nonZero"
+        android:pathData="M14.4645,12.3514L14.5598,12.4391L17.9993,15.8771L21.4388,12.4384L21.534,12.3506C22.149,11.835 23.0608,11.8947 23.6033,12.4861C24.1457,13.0776 24.1265,13.9912 23.5598,14.5594L20.1218,17.9996L23.5605,21.4391C24.1273,22.0073 24.1464,22.9209 23.604,23.5123C23.0616,24.1038 22.1497,24.1635 21.5348,23.6479L21.4395,23.5601L17.9993,20.1221L14.5598,23.5609L14.4645,23.6486C13.8496,24.1642 12.9377,24.1045 12.3953,23.5131C11.8529,22.9216 11.872,22.008 12.4388,21.4399L15.8768,17.9996L12.438,14.5601C11.8713,13.9919 11.8521,13.0783 12.3945,12.4869C12.937,11.8955 13.8488,11.8357 14.4638,12.3514L14.4645,12.3514Z"
+        android:strokeWidth="1"
+        android:strokeColor="#00000000" />
+</vector>

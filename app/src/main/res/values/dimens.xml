@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright 2025 Grandstream
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+     https://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--status_bar_height + top_bar_height-->
+    <dimen name="title_bar_height">70dp</dimen>
+    <dimen name="container_height">0dp</dimen>
+    <dimen name="bottom_bar_height">80dp</dimen>
+    <dimen name="bottom_bar_padding_top">9dp</dimen>
+    <dimen name="bottom_bar_text_size">12sp</dimen>
+    <dimen name="bottom_bar_text_max_width">80dp</dimen>
+    <dimen name="bottom_bar_icon_size">24dp</dimen>
+    <dimen name="bottom_bar_icon_text_space">5dp</dimen>
+    <dimen name="bottom_tab_width_for_four_tab">90dp</dimen>
+    <dimen name="bottom_tab_width_for_three_tab">120dp</dimen>
+    <dimen name="bottom_tab_width_for_two_tab">@dimen/bottom_tab_width_for_four_tab</dimen>
+
+    <dimen name="divider_line_height">0.5dp</dimen>
+
+    <dimen name="common_button_height">42dp</dimen>
+    <dimen name="common_button_corner">21dp</dimen>
+
+    <!--popup window-->
+    <dimen name="popup_list_item_height">48dp</dimen>
+    <dimen name="popup_list_item_icon_size">21dp</dimen>
+    <dimen name="titlebar_popup_window_width">201dp</dimen>
+    <dimen name="popup_list_item_p_l_r">16dp</dimen>
+    <dimen name="popup_list_title_text_size">18sp</dimen>
+    <dimen name="popup_list_item_text_size">16sp</dimen>
+    <!--text size-->
+    <dimen name="text_size_large">16sp</dimen>
+    <dimen name="text_size_medium">14sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+
+
+    <dimen name="line_height">2dp</dimen>
+    <!--触控区域-->
+    <dimen name="btn_titlebar_menu_width">35dp</dimen>
+    <dimen name="btn_titlebar_menu_height">35dp</dimen>
+
+
+
+
+    <dimen name="icon_size_big">44dp</dimen>
+    <dimen name="icon_size_new">40dp</dimen>
+    <dimen name="icon_size">32dp</dimen>
+    <dimen name="icon_size_middle1">28dp</dimen>
+    <dimen name="icon_size_middle">24dp</dimen>
+    <dimen name="icon_size_small">20dp</dimen>
+    <dimen name="icon_size_low">18dp</dimen>
+    <dimen name="tab_text_size">10sp</dimen>
+
+
+
+    <dimen name="drawable_padding">12dp</dimen>
+    <dimen name="bottom_tab_height">80dp</dimen>
+    <dimen name="actionbar_height">64dp</dimen>
+    <dimen name="divider_height">0.5dp</dimen>
+
+    <dimen name="length_null">0dp</dimen>
+    <dimen name="length_1">0.5dp</dimen>
+    <dimen name="length_2">1dp</dimen>
+    <dimen name="length_3">1.5dp</dimen>
+    <dimen name="length_4">2dp</dimen>
+    <dimen name="length_5">2.5dp</dimen>
+    <dimen name="length_6">3dp</dimen>
+    <dimen name="length_7">3.5dp</dimen>
+    <dimen name="length_7_5">3.8dp</dimen>
+    <dimen name="length_8">4dp</dimen>
+    <dimen name="length_9">4.5dp</dimen>
+    <dimen name="length_10">5dp</dimen>
+    <dimen name="length_11">5.5dp</dimen>
+    <dimen name="length_12">6dp</dimen>
+    <dimen name="length_13">6.5dp</dimen>
+    <dimen name="length_14">7dp</dimen>
+    <dimen name="length_15">7.5dp</dimen>
+    <dimen name="length_16">8dp</dimen>
+    <dimen name="length_17">8.5dp</dimen>
+    <dimen name="length_18">9dp</dimen>
+    <dimen name="length_19">9.5dp</dimen>
+    <dimen name="length_20">10dp</dimen>
+    <dimen name="length_21">10.5dp</dimen>
+    <dimen name="length_22">11dp</dimen>
+    <dimen name="length_24">12dp</dimen>
+    <dimen name="length_25">12.5dp</dimen>
+    <dimen name="length_26">13dp</dimen>
+    <dimen name="length_27">13.5dp</dimen>
+    <dimen name="length_28">14dp</dimen>
+    <dimen name="length_29">14.5dp</dimen>
+    <dimen name="length_30">15dp</dimen>
+    <dimen name="length_31">15.5dp</dimen>
+    <dimen name="length_32">16dp</dimen>
+    <dimen name="length_34">17dp</dimen>
+    <dimen name="length_35">17.5dp</dimen>
+    <dimen name="length_36">18dp</dimen>
+    <dimen name="length_37">18.5dp</dimen>
+    <dimen name="length_38">19dp</dimen>
+    <dimen name="length_40">20dp</dimen>
+    <dimen name="length_44">22dp</dimen>
+    <dimen name="length_46">23dp</dimen>
+    <dimen name="length_48">24dp</dimen>
+    <dimen name="length_49">24.5dp</dimen>
+    <dimen name="length_50">25dp</dimen>
+    <dimen name="length_52">26dp</dimen>
+    <dimen name="length_55">27.5dp</dimen>
+    <dimen name="length_56">28dp</dimen>
+    <dimen name="length_57">28.5dp</dimen>
+    <dimen name="length_60">30dp</dimen>
+    <dimen name="length_62">31dp</dimen>
+    <dimen name="length_64">32dp</dimen>
+    <dimen name="length_70">35dp</dimen>
+    <dimen name="length_75">37.5dp</dimen>
+    <dimen name="length_80">40dp</dimen>
+    <dimen name="length_83">41.5dp</dimen>
+    <dimen name="length_88">44dp</dimen>
+    <dimen name="length_90">45dp</dimen>
+    <dimen name="length_95">47.5dp</dimen>
+    <dimen name="length_96">48dp</dimen>
+    <dimen name="length_100">50dp</dimen>
+    <dimen name="length_104">52dp</dimen>
+    <dimen name="length_105">52.5dp</dimen>
+    <dimen name="length_108">54dp</dimen>
+    <dimen name="length_110">55dp</dimen>
+    <dimen name="length_112">56dp</dimen>
+    <dimen name="length_115">57.5dp</dimen>
+    <dimen name="length_120">60dp</dimen>
+    <dimen name="length_122">61dp</dimen>
+    <dimen name="length_128">64dp</dimen>
+    <dimen name="length_145">72.5dp</dimen>
+    <dimen name="length_151">75.5dp</dimen>
+    <dimen name="length_172">86dp</dimen>
+    <dimen name="length_181">90.5dp</dimen>
+    <dimen name="length_185">92.5dp</dimen>
+    <dimen name="length_220">110dp</dimen>
+    <dimen name="length_243">121.5dp</dimen>
+    <dimen name="length_275">137.5dp</dimen>
+    <dimen name="length_330">165dp</dimen>
+    <dimen name="length_340">170dp</dimen>
+    <dimen name="length_478">239dp</dimen>
+
+    <dimen name="font_12">6sp</dimen>
+    <dimen name="font_13">6.5sp</dimen>
+    <dimen name="font_14">7sp</dimen>
+    <dimen name="font_15">7.5sp</dimen>
+    <dimen name="font_16">8sp</dimen>
+    <dimen name="font_17">8.5sp</dimen>
+    <dimen name="font_18">9sp</dimen>
+    <dimen name="font_20">10sp</dimen>
+    <dimen name="font_22">11sp</dimen>
+    <dimen name="font_24">12sp</dimen>
+    <dimen name="font_25">12.5sp</dimen>
+    <dimen name="font_26">13sp</dimen>
+    <dimen name="font_28">14sp</dimen>
+    <dimen name="font_30">15sp</dimen>
+    <dimen name="font_32">15sp</dimen>
+    <dimen name="font_34">15sp</dimen>
+    <dimen name="font_36">18sp</dimen>
+
+    <!-- bottom navigation view -->
+    <dimen name="design_bottom_navigation_margin" tools:override="true">6dp</dimen>
+    <dimen name="design_bottom_navigation_height" tools:override="true">@dimen/bottom_tab_height</dimen>
+    <dimen name="design_bottom_navigation_label_padding" tools:override="true">11.5dp</dimen>
+
+    <!-- toast view -->
+    <dimen name="toast_view_padding_start">24dp</dimen>
+    <dimen name="toast_view_padding_end">24dp</dimen>
+    <dimen name="toast_view_padding_top">12dp</dimen>
+    <dimen name="toast_view_padding_bottom">16dp</dimen>
+    <dimen name="toast_view_text_size">21sp</dimen>
+
+    <!-- empty view -->
+    <dimen name="empty_button_width">120dp</dimen>
+    <dimen name="empty_button_height">40dp</dimen>
+    <dimen name="empty_button_m_t">@dimen/length_80</dimen>
+    <dimen name="empty_button2_m_t">@dimen/length_40</dimen>
+    <dimen name="empty_button_text_size">@dimen/font_32</dimen>
+    <dimen name="empty_img_width">280dp</dimen>
+    <dimen name="empty_img_height">100dp</dimen>
+    <dimen name="empty_img_m_t">152dp</dimen>
+    <dimen name="empty_text_size">12sp</dimen>
+    <dimen name="empty_text_m_t">@dimen/length_16</dimen>
+
+    <!-- dialog-->
+    <dimen name="dialog_corner">4dp</dimen>
+
+    <!-- title view -->
+    <dimen name="title_bar_btn_width">40dp</dimen>
+    <dimen name="title_bar_p_l_r">8dp</dimen>
+    <dimen name="title_bar_title_m_r">12dp</dimen>
+    <dimen name="title_bar_title_d_p">6.5dp</dimen>
+    <dimen name="title_bar_title_text_size">22sp</dimen>
+    <dimen name="title_bar_menu_max_width">100dp</dimen>
+    <dimen name="title_bar_menu_height">40dp</dimen>
+    <dimen name="title_bar_menu_text_size">16sp</dimen>
+    <dimen name="title_bar_menu_text_padding_l_r">12dp</dimen>
+
+    <!-- recycleView  -->
+    <dimen name="item_m_s">16dp</dimen>
+    <dimen name="item_m_e">24dp</dimen>
+    <dimen name="item_max_title_length">135dp</dimen>
+    <dimen name="item_title_text_size">16sp</dimen>
+    <dimen name="item_subtitle_text_size">14sp</dimen>
+    <dimen name="item_divider_m_s">72dp</dimen>
+    <dimen name="item_divider_m_e">0dp</dimen>
+    <dimen name="item_height">52dp</dimen>
+
+
+    <item name="letter_to_tile_ratio" type="dimen">60%</item>
+
+    <dimen name="contact_detail_head">87dp</dimen>
+    <dimen name="user_photo_size">107dp</dimen>
+
+
+    <!-- preference view  -->
+    <dimen name="preference_tag_text_size">14sp</dimen>
+    <dimen name="preference_padding_l_r">16dp</dimen>
+    <dimen name="preference_padding_t_b">16dp</dimen>
+    <dimen name="preference_height">52dp</dimen>
+    <dimen name="preference_height_max">60dp</dimen>
+    <dimen name="preference_title_text_size">16sp</dimen>
+    <dimen name="preference_subtitle_text_size">12sp</dimen>
+    <dimen name="preference_summary_text_size">14sp</dimen>
+    <dimen name="preference_divider_l_r">8dp</dimen>
+    <dimen name="preference_summary_max_width">144dp</dimen>
+    <!-- preference edittext view  -->
+    <dimen name="preference_edittext_item_height">86dp</dimen>
+    <dimen name="preference_edittext_padding_t_b">12dp</dimen>
+    <dimen name="preference_edittext_title_margin_b">6dp</dimen>
+    <dimen name="preference_edittext_height">48dp</dimen>
+    <dimen name="preference_edittext_underline_height_normal">1dp</dimen>
+    <dimen name="preference_edittext_underline_height_focus">2dp</dimen>
+    <dimen name="preference_edittext_text_size">16sp</dimen>
+
+    <dimen name="input_height">59dp</dimen>
+
+    <!-- Max width of a toast -->
+    <dimen name="toast_width">300dp</dimen>
+    <!-- Elevation of toast view -->
+    <dimen name="toast_elevation">2dp</dimen>
+</resources>

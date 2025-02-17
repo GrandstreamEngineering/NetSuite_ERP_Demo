@@ -1,0 +1,108 @@
+<!--
+ Copyright 2025 Grandstream
+ 
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ 
+     https://www.apache.org/licenses/LICENSE-2.0
+ 
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+
+<resources>
+    <string name="app_name">GS NetSuite</string>
+
+    <!-- common -->
+    <string name="cancel">Cancel</string>
+    <string name="sure">Sure</string>
+    <string name="all">All</string>
+    <string name="error_tips">Error tips</string>
+    <string name="no_limit">Unlimited</string>
+    <string name="search">Search</string>
+    <string name="customer_tips">User prompts</string>
+    <string name="exit">Exit</string>
+    <string name="refresh">Refresh</string>
+    <string name="load_more">Loading more …</string>
+    <string name="load_more_complete">Loading complete</string>
+    <string name="load_more_none">No more data</string>
+
+    <!-- login page -->
+    <string name="netsuite_login">Netsuite login</string>
+    <string name="login">Login</string>
+    <string name="auto_login">Auto login</string>
+    <string name="exit_app_message">Exit the app?</string>
+    <string name="waiting_for_authorization">Waiting for authorization (%ds)</string>
+    <string name="login_loading">Logging in …</string>
+    <string name="parse_response_error">Failed to parse the network response data</string>
+    <string name="empty_response_error">The network response data is empty</string>
+    <string name="try_again_network_request">The network is abnormal, try again?</string>
+    <string name="try_again">Retry</string>
+
+    <string name="oauth2_step1_error_invalid_request_title">Invalid request</string>
+    <string name="oauth2_step1_error_invalid_request_msg">One or more required parameters are missing.\nImportant: The redirect does not take place if the redirect URI in the GET request does not match the value in the Redirect URI field in the corresponding integration record. Only the error message should be displayed.</string>
+    <string name="oauth2_step1_error_unauthorized_client_title">Unauthorized client</string>
+    <string name="oauth2_step1_error_unauthorized_client_msg">The redirect does not take place if the client is unknown to the authorization server. Only the error message should be displayed.</string>
+    <string name="oauth2_step1_error_access_denied_title">Access denied</string>
+    <string name="oauth2_step1_error_access_denied_msg">A user clicks the Deny or Back button on the consent screen and interrupts the flow.</string>
+    <string name="oauth2_step1_error_unsupported_response_type_title">Unsupported response type</string>
+    <string name="oauth2_step1_error_unsupported_response_type_msg">The response type cannot be handled.</string>
+    <string name="oauth2_step1_error_invalid_scope_title">Invalid scope</string>
+    <string name="oauth2_step1_error_invalid_scope_msg">The scope cannot be handled. The scope value is malformed, unknown, or invalid.</string>
+    <string name="oauth2_step2_error_invalid_request_title">Invalid request</string>
+    <string name="oauth2_step2_error_invalid_request_msg">Any of the following conditions may cause the invalid_request error to occur:\n1. One or more required parameters are missing or malformed.\n2. The grant_type value is incorrect.\n3. Multiple client authentication approaches are used.\n4. Any other type of a malformed request is sent.</string>
+    <string name="oauth2_step2_error_invalid_client_title">Invalid client</string>
+    <string name="oauth2_step2_error_invalid_client_msg">Authentication of the client fails.The HTTP status code is 401 Unauthorized.The response header is set to: Basic realm=$accountID\nFollowing is an example of the response header:\nHTTP/1.1 401 Unauthorized\nWWW-Authenticate: Basic realm="123456"</string>
+    <string name="oauth2_step2_error_invalid_grant_title">Invalid grant</string>
+    <string name="oauth2_step2_error_invalid_grant_msg">Any of the following conditions may cause the invalid_grant error to occur:\n1. The authorization code is invalid, expired, or revoked.\n2. The refresh token is invalid, expired, or revoked.\nImportant: In case the refresh token is expired, the application must go back to Step One of the OAuth 2.0 authorization code grant flow to restart the process.\n3. The redirect URI does not match the redirect URI in the authorization request.\n4. The authorization code or refresh token cannot be associated with the client.\n5.The code_verifier parameter on Step Two does not match the code_verifier parameter in Step One.</string>
+    <string name="oauth2_step2_error_unauthorized_client_title">Unauthorized client</string>
+    <string name="oauth2_step2_error_unauthorized_client_msg">The value of the authorization grant_type is not allowed for the client.</string>
+    <string name="oauth2_step2_error_unsupported_grant_type_title">Unsupported grant type</string>
+    <string name="oauth2_step2_error_unsupported_grant_type_msg">The value of the grant_type parameter is neither authorization_code nor refresh_token.</string>
+    <string name="oauth2_step2_error_invalid_scope_title">Invalid scope</string>
+    <string name="oauth2_step2_error_invalid_scope_msg">The scope cannot be handled. The scope value is malformed, unknown, or invalid.</string>
+
+    <string name="oauth2_api_error_invalid_request_title">Invalid request</string>
+    <string name="oauth2_api_error_invalid_request_msg">The request is in a wrong format. One or more parameters are missing, repeated, or malformed.</string>
+    <string name="oauth2_api_error_invalid_token_title">Invalid token</string>
+    <string name="oauth2_api_error_invalid_token_msg">The provided access token is expired, revoked, malformed, or invalid.</string>
+    <string name="refresh_invalid_token_title">Invalid token</string>
+    <string name="refresh_invalid_token_msg">The provided access token is expired, revoked, malformed, or invalid.Try to refresh the token?</string>
+
+    <!-- home page -->
+    <string name="exit_message">Sign out or exit the app?</string>
+    <string name="logout">Logout</string>
+    <string name="exit_app">Exit app</string>
+
+    <!-- Inventory management page -->
+    <string name="inventory_management">Inventory management</string>
+    <string name="inventory_adjustments">Inventory adjustments</string>
+    <string name="inventory_transfer">Inventory transfer</string>
+    <string name="inventory_count">Inventory count</string>
+    <string name="inventory_item">Inventory item</string>
+
+    <string name="date_range">Date range</string>
+    <string name="recently_week">Recently week</string>
+    <string name="recently_month">Recently month</string>
+    <string name="recently_half_year">Recently half year</string>
+    <string name="recently_year">Recently year</string>
+    <string name="start_date">Start date</string>
+    <string name="end_date">End date</string>
+    <string name="sale_reset">Reset</string>
+    <string name="limit_count">Limit count</string>
+    <string name="tip_time_over">The start time should be earlier than the end time</string>
+
+    <string name="document_number_title">Document NO.:</string>
+    <string name="account_title">Account:</string>
+    <string name="memo_title">Memo:</string>
+    <string name="currency_title">Currency: </string>
+    <string name="amount_foreign_title">Amount (Foreign currency):</string>
+    <string name="amount_title">Amount:</string>
+    <string name="create_date_title">Create date:</string>
+
+    <string name="estimated_total_value_title">Estimated total value:</string>
+</resources>

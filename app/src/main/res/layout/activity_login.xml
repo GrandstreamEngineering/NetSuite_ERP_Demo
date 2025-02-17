@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright 2025 Grandstream
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+     https://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_white">
+
+<!--    android:background="@color/color_statusBar"-->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/actionbar_height"
+        android:elevation="@dimen/length_8"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="@string/netsuite_login"/>
+
+    <TextView
+        android:id="@+id/tv_employee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_marginStart="@dimen/length_64"
+        android:layout_marginEnd="@dimen/length_64"
+        android:layout_marginTop="@dimen/empty_img_m_t"
+        android:layout_marginBottom="@dimen/length_64"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:drawableStart="@drawable/contact_full"
+        android:drawablePadding="@dimen/preference_padding_l_r"
+        android:textStyle="bold"
+        android:textSize="@dimen/title_bar_title_text_size"
+        android:textColor="@color/color_text_item_title"
+        android:visibility="invisible"
+        tools:ignore="UseCompatTextViewDrawableXml" />
+
+    <TextView
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_button_height"
+        android:background="@drawable/common_bg_button_blue"
+        android:layout_below="@id/tv_employee"
+        android:layout_marginStart="@dimen/length_64"
+        android:layout_marginEnd="@dimen/length_64"
+        android:gravity="center"
+        android:textSize="@dimen/preference_title_text_size"
+        android:textColor="@color/color_white"
+        android:text="@string/login" />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/cb_auto_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_login"
+        android:layout_marginStart="@dimen/length_64"
+        android:layout_marginEnd="@dimen/length_64"
+        android:text="@string/auto_login"
+        android:textSize="@dimen/preference_summary_text_size"
+        android:textColor="@color/color_text_item_title"
+        android:checked="true"/>
+
+</RelativeLayout>

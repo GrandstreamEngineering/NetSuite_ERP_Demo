@@ -1,0 +1,30 @@
+<!--
+ Copyright 2025 Grandstream
+ 
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ 
+     https://www.apache.org/licenses/LICENSE-2.0
+ 
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:width="@dimen/icon_size_middle"
+    android:height="@dimen/icon_size_middle"
+    android:viewportWidth="40"
+    android:viewportHeight="40">
+    <path
+        android:fillColor="@color/common_black_icon_default"
+        android:fillType="evenOdd"
+        android:pathData="M24.7308,3C24.853,3 24.9713,3.0204 25.0832,3.0586C25.216,3.0204 25.3556,3 25.5,3C26.3284,3 27,3.6716 27,4.5L27,7.5C27,8.3284 26.3284,9 25.5,9C24.6716,9 24,8.3284 24,7.5L24.001,6L7,6L7,33.999L24,33.999L24,32.5C24,31.6716 24.6716,31 25.5,31C26.3284,31 27,31.6716 27,32.5L27,35.5C27,36.3284 26.3284,37 25.5,37C25.3556,37 25.216,36.9796 25.0838,36.9415C24.9713,36.9796 24.853,37 24.7308,37L5.5211,36.9999C5.5141,37 5.5071,37 5.5,37L5.479,36.999L5.2692,37C4.5702,37 4.0032,36.3322 4,35.5071L4,4.5C4,3.6716 4.5683,3 5.2692,3L24.7308,3ZM29.3766,12.1482L29.4734,12.2213L37.7472,19.4656C38.0562,19.7362 38.0819,20.1608 37.8244,20.457L37.7472,20.5344L29.4734,27.7787C29.3116,27.9204 29.092,28 28.8631,28C28.4231,28 28.06,27.7117 28.0067,27.3391L28,27.2443L28,23L19.8333,23C19.3731,23 19,22.6269 19,22.1667L19,17.8333C19,17.3731 19.3731,17 19.8333,17L28,17L28,12.7557C28,12.5887 28.0632,12.4274 28.1779,12.2962L28.2528,12.2213C28.5592,11.953 29.0387,11.9287 29.3766,12.1482Z"
+        android:strokeWidth="1"
+        android:strokeColor="#00000000"
+        tools:ignore="VectorPath" />
+</vector>
