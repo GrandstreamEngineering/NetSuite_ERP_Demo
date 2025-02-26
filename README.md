@@ -30,16 +30,16 @@ android {
     buildTypes {
         // The CONSUMER_KEY and CONSUMER_SECRET of the integration (They only appear when you create the integration)
         val NETSUITE_CONSUMER_KEY = "XXXXXX" // Replace with your consumer key
-        val NETSUITE_CONSUMER_SECRET = "XXXXXX" // Replace with your account ID
+        val NETSUITE_CONSUMER_SECRET = "XXXXXX" // Replace with your consumer secret
         // The company's Account ID: Such as "11111_DEMO1"
-        val NETSUITE_ACCOUNT_ID = "XXXXXX" // Replace with your account ID
+        val NETSUITE_ACCOUNT_ID = "XXXXXX" // Replace with your account id
         // The company's Account ID in the URL of NetSuite API: Such as "11111-demo1", "https://11111-demo1.suitetalk.api.netsuite.com
-        val NETSUITE_ACCOUNT_ID_IN_URL = "XXXXXX" // Replace with your account ID
+        val NETSUITE_ACCOUNT_ID_IN_URL = "XXXXXX" // Replace with your account id
         // The callback URI for the login authorization with OAuth 2.0: 
         // 1. The authorization sign-in result is returned to the app via this URI.
         // 2. The app needs to add the corresponding intent-filter in the AndroidManifest.xml for the Activity that receives the login authorization result:
         //    Such as, "xxx://xxx/xxx" (grandstream://com.exaple/login/callback)
-        val NETSUITE_REDIRECT_URI = "XXXXXX" // Replace with your account ID
+        val NETSUITE_REDIRECT_URI = "XXXXXX" // Replace with your redirect url
 
         debug {
             buildConfigField("String", "NETSUITE_CONSUMER_KEY", "\"$NETSUITE_CONSUMER_KEY\"")
